@@ -1,0 +1,29 @@
+body {
+    background-color: lemonchiffon;
+}
+#titulo {
+color: darkgreen;
+background-color: rgb(31, 30, 30);
+text-align: center;
+font-size: 50px;
+}
+
+.parrafo {
+    color: blueviolet;
+    
+}
+
+* {
+    font-family: "parrafo", "titulo","subtitulo", cursive; 
+}
+
+#imagen {
+    width: 500px;
+    height: 500px;
+}
+
+div .texto.p {
+font-size: 20px;
+text-decoration: solid;
+color: black;
+}
