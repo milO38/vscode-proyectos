@@ -1,0 +1,491 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Pinyon+Script&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+
+.navbar{
+    background-color: rgb(226, 223, 206);
+}
+body {
+    background-image: url(Dylan\ y\ Cami/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.navbar {
+   border: transparent;
+   display: flex;
+   background-image: url(Dylan\ y\ Cami/banner2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 0%;
+   height: 200px;
+}
+.navbar-brand {
+    font-family: 'Pinyon Script', cursive;
+    color: #1F564C;
+    font-size: 500%;
+    font-weight: 900;
+    font-weight: bolder;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 4%;
+    padding-bottom: 3%;
+    border-bottom:transparent;
+}
+
+#menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: 100;
+    display: flex;
+    padding-bottom: 3%;
+    flex-direction: row;
+    background-image: transparent;
+}
+
+.audio {
+    margin: 2%;
+    margin-left: 30%;
+    width: 30%;
+}
+
+#discurso {
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(226, 223, 206);
+    margin: 5%;
+    border-color: rgb(28, 78, 28);
+    border-style: solid;
+    background-position: bottom;
+    border-radius: 5%;
+    padding: 3%;
+    background-image: url(Dylan\ y\ Cami/tubi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38rem;
+    height: 20rem;
+     margin-left: 27%;
+     margin-bottom: 5%;
+}
+
+#fiesta {
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(226, 223, 206);
+    margin: 5%;
+    border-color: rgb(28, 78, 28);
+    border-style: solid;
+    border-radius: 5%;
+    padding: 3%;
+    background-image: url(Dylan\ y\ Cami/tubi.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 38rem;
+    height: 20rem;
+     margin-left: 27%;
+     margin-bottom: 5%;
+}
+
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 4%;
+}
+
+#confirmacion {
+    background-color:  rgb(226, 223, 206);
+    border-color: rgb(28, 78, 28);
+    font-weight: bold;
+    border-style: solid;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30%;
+    margin-left: 27%; 
+    width: 30%;
+    padding: 2%;
+    background-image: url(Dylan\ y\ Cami/tubi.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 4%;
+}
+
+
+.carousel-inner {
+    margin-bottom: 5%;
+}
+
+.titulo {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 95px;
+    font-weight: bold;
+    margin-left: 13%;
+    text-decoration: underline;
+    color:#1F564C; 
+    padding-top: 30%; 
+}
+
+.subtitulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.textxcard {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 35px;
+    font-weight: bold;   
+}
+
+.frase {
+  background-color: rgb(226, 223, 206);
+  padding: 2%;
+  width: 50%;
+  background-image: url(Dylan\ y\ Cami/tubi.png);
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.containernav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#c {
+    margin: 2%;
+    margin-left: 32%;
+    width: 500px;
+    height: 700px;
+}
+
+@media (max-width: 1228px ) {
+    #confirmacion {
+        margin-left: 25%;
+        width: 4%;
+        margin-right: 0%;
+    }
+    .frase {
+        margin-left: 25%;
+    }
+    .titulo {
+        margin-left: 2%;
+    }
+    #c {
+        margin-left: 30%;
+    }
+    #menu {
+        font-size: 130%;
+        font-weight: bold;
+    }
+    .navbar-brand {
+        font-size: 400%;
+    }
+}
+
+@media (max-width: 1200px ) {
+    #confirmacion {
+        margin-left: 30%;
+        width: 4%;
+        margin-right: 0%;
+    }
+    #menu {
+        font-size: 200%;
+        font-weight: bold;
+    }
+    .titulo {
+        margin-left: 10%;
+    }
+    .frase {
+        margin-left: 25%;
+    }
+    .navbar-brand {
+        margin-right: 2%;
+    }
+}
+
+@media (max-width: 992px) {
+    #menu {
+        font-size: 110%;
+        padding-bottom: 4%;
+    }
+    .navbar-brand {
+        font-size: 400%;
+        padding-bottom: 6%;
+    }
+    .titulo {
+        margin-left: 20%;
+    }
+    #confirmacion {
+        margin-left: 25%;
+        margin-right: 0%;
+    }
+    #discurso {
+        margin-left: 20%;
+    }
+    #fiesta {
+        margin-left: 20%;
+    }
+    #c {
+        margin-left: 25%;
+    }
+    .frase {
+        height: 20%;
+        margin-left: 10%;
+        margin-right: 2%;
+        width: 80%;
+    }  
+}
+
+@media (max-width: 768px) {
+    #menu {
+        font-size: 100%;
+    }
+
+    .navbar-brand {
+        font-size: 300%;
+        margin-left: 12%;
+    }
+    .titulo {
+        margin-left: 13%;
+    }
+    #confirmacion {
+        margin-left: 20%;
+        margin-right: 0%;
+    }
+    #discurso {
+        margin-left: 11%;
+    }
+    #fiesta {
+        margin-left: 11%;
+    }
+    #c {
+        margin-left: 17%;
+    }
+    .frase {
+        height: 20%;
+        margin-left: 10%;
+        margin-right: 2%;
+        width: 80%;
+    }
+}
+
+
+
+@media (max-width: 576px ) {
+    .navbar-brand {
+        font-size: 200%;
+        margin-left: 11%;
+        padding-bottom: 8%;
+    }
+    .navbar {
+        width: 576px;
+        background-size: contain;
+        padding: 0%;
+        background-color: transparent;
+    }
+    #menu {
+        font-size: 90%;
+        padding-bottom: 7%;
+    }
+    #c {
+        margin-left: 6%;
+    }
+    .frase {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+    .titulo {
+        margin-left: 5%;
+    }
+    #confirmacion {
+        margin-left: 10%;
+    }
+    #discurso {
+        margin-left: 10%;
+        width: 80%;
+    }
+    #fiesta {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 340%;
+        margin-right: 0%;
+        margin-left: 19%;
+        padding-bottom: 11%;
+    }
+    .navbar {
+        width: 480px;
+        background-size: contain;
+        background-color: transparent;
+    }
+     .nav-item {
+        visibility: collapse;
+        font-size: smaller;
+        padding: 0%;
+        margin: 0%;
+        
+    }
+    .audio {
+        margin: 2%;
+        margin-left: 13%;
+        width: 70%;
+
+    }
+    #c {
+        margin-left: 13%;
+        width: 350px;
+        height: 200%;
+    }
+    .frase {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+    .titulo {
+        margin-left: 10%;
+        font-size: 300%;
+    }
+    .subtitulo {
+        font-size: 150%;
+    }
+    .textxcard {
+        font-size: 200%;
+    }
+    #confirmacion{
+        width: 250px;
+        font-size: 67%;
+    }
+    #discurso {
+        margin-left: 1%;
+        width: 97%;
+    }
+    #fiesta {
+        margin-left: 1%;
+        width: 97%;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-brand {
+        font-size: 200%;
+        margin-right: 0%;
+        margin-left: 40%;
+        padding-bottom: 10%;
+    }
+    .navbar {
+        width: 375px;
+        background-size: cover;
+        background-color: transparent;
+    }
+     .nav-item {
+        visibility: collapse;
+        font-size: smaller;
+    }
+    .audio {
+        margin: 2%;
+        margin-left: 13%;
+        width: 70%;
+
+    }
+    #c {
+        margin-left: 1%;
+        width: 37px;
+        height: 200%;
+    }
+    .frase {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+    .titulo {
+        margin-left: 10%;
+        font-size: 300%;
+    }
+    .subtitulo {
+        font-size: 150%;
+    }
+    .textxcard {
+        font-size: 200%;
+    }
+    #confirmacion{
+        width: 260px;
+        font-size: 67%;
+    }
+    #discurso {
+        margin-left: 1%;
+        width: 97%;
+    }
+    #fiesta {
+        margin-left: 1%;
+        width: 97%;
+    }
+    
+}   
+
+@media (max-width: 360px) {
+    .navbar-brand {
+        font-size: 200%;
+        margin-right: 0%;
+        margin-left: 25%;
+        padding-bottom: 10%;
+    }
+    .navbar {
+        width: 360px;
+        background-size: contain;
+        background-color: transparent;
+    }
+     .nav-item {
+        visibility: collapse;
+        font-size: smaller;
+    }
+    .audio {
+        margin: 2%;
+        margin-left: 13%;
+        width: 70%;
+
+    }
+    #c {
+        margin-left: 1%;
+        width: 350px;
+        height: 200%;
+    }
+    .frase {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+    .titulo {
+        margin-left: 10%;
+        font-size: 300%;
+    }
+    .subtitulo {
+        font-size: 150%;
+    }
+    .textxcard {
+        font-size: 200%;
+    }
+    #confirmacion{
+        width: 250px;
+        font-size: 67%;
+    }
+    #discurso {
+        margin-left: 1%;
+        width: 97%;
+    }
+    #fiesta {
+        margin-left: 1%;
+        width: 97%;
+    }
+}   
